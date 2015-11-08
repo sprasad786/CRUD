@@ -40,7 +40,7 @@
 		</form:form>
 		
   <c:if test="${!empty employees}">
-		<h2>List Employees</h2>
+		<h2>List of Employees</h2>
 	<table align="left" border="1">
 		<tr>
 			<th>Employee ID</th>
@@ -48,7 +48,7 @@
 			<th>Employee Age</th>
 			<th>Employee Salary</th>
 			<th>Employee Address</th>
-			<th>Actions on Row</th>
+			<th>Actions on Employee</th>
 		</tr>
 
 		<c:forEach items="${employees}" var="employee">
@@ -58,7 +58,7 @@
 				<td><c:out value="${employee.age}"/></td>
 				<td><c:out value="${employee.salary}"/></td>
 				<td><c:out value="${employee.address}"/></td>
-				<td align="center"><a href="edit.html?id=${employee.id}">Edit</a> | <a href="delete.html?id=${employee.id}">Delete</a></td>
+				<td align="center"><a href="edit.html?id=${employee.id}">Update</a> | <a href="delete.html?id=${employee.id}">Delete</a></td>
 			</tr>
 		</c:forEach>
 	</table>
