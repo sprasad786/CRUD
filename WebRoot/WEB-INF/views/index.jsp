@@ -4,11 +4,11 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Spring3MVC with Hibernate3 CRUD Example using Annotations</title>
+    <title>CURD Operations with Hibernate3</title>
   </head>
   <body>
-    <h2>Spring3MVC with Hibernate3 CRUD Example using Annotations</h2>
-    <h2>1. <a href="employees.html">List of Employees</a></h2>
-    <h2>2. <a href="add.html">Add Employee</a></h2>
+    <h2><font color="#FF00BF">CURD Operations with Hibernate3</font></h2>
+    <h2>1. <a href="employees.html"><font color="#0101ff">List Of Employees</font></a></h2>
+    <h2>2. <a href="add.html"><font color="#0101ff">add employees</font></a></h2>
   </body>
 </html>
